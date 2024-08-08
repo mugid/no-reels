@@ -1,0 +1,16 @@
+{
+  "name": "Say No to Reels",
+  "version": "1.0.0",
+  "description": "Block Instagram reels and save your time",
+  "manifest_version": 3,
+  "author": "Bek Slambek",
+  "permissions": ["webRequest", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "./popup/index.html",
+    "default_title": "Say No to Reels",
+    "default_icon": "./images/no-reels.png"
+  }
+}
