@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+:root {
+  --geist-font: "Geist", sans-serif;
+  --geist-bg: #fff;
+  --geist-text: #333;
+}
+
+body {
+  font-family: var(--geist-font);
+  background-color: var(--geist-bg);
+  color: var(--geist-text);;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  min-width: 450px;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.checkbox-control {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 6px;
+}
