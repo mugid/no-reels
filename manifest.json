@@ -4,7 +4,7 @@
   "description": "Block Instagram reels and save your time",
   "manifest_version": 3,
   "author": "Bek Slambek",
-  "permissions": ["webRequest", "tabs"],
+  "permissions": ["webRequest", "tabs", "storage"],
   "background": {
     "service_worker": "background.js"
   },
